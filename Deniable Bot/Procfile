@@ -1,1 +1,1 @@
-worker: java -jar me.Asylx.Bot.jar
+worker: java -jar out/artifacts/Deniable_Bot/bot.jar
