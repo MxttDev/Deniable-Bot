@@ -1,0 +1,1 @@
+worker: java -jar out/artifacts/Deniable_Bot_jar/Bot.jar
