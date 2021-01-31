@@ -1,7 +1,6 @@
 package me.Asylx.Commands.Misc;
 
 import me.Asylx.Utils.JsonFromURL;
-import me.Asylx.Utils.Prefix;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.MessageChannel;
