@@ -6,6 +6,7 @@ import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.MessageChannel;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -41,7 +42,7 @@ public class Status extends ListenerAdapter {
                 channel.sendMessage(embed.build()).queue();
 
 
-            } catch (IOException ioException) {
+            } catch (IOException | JSONException ioException) {
                 ioException.printStackTrace();
             }
         }
