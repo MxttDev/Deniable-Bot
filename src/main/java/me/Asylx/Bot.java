@@ -1,7 +1,6 @@
 package me.Asylx;
 
 import me.Asylx.Commands.Misc.Ping;
-import me.Asylx.Commands.Misc.Status;
 import me.Asylx.Events.guildMemberJoin;
 import me.Asylx.Events.guildMessageReaction;
 import me.Asylx.Utils.Config;
@@ -11,7 +10,6 @@ import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 
 import javax.security.auth.login.LoginException;
-import java.io.IOException;
 
 public class Bot {
 
