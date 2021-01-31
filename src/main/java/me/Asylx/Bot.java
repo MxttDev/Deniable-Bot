@@ -1,6 +1,7 @@
 package me.Asylx;
 
 import me.Asylx.Commands.Misc.Ping;
+import me.Asylx.Commands.Misc.Status;
 import me.Asylx.Events.guildMemberJoin;
 import me.Asylx.Events.guildMessageReaction;
 import me.Asylx.Utils.Config;
@@ -23,6 +24,7 @@ public class Bot {
                 .addEventListeners(new Ping())
                 .addEventListeners(new guildMemberJoin())
                 .addEventListeners(new guildMessageReaction())
+                .addEventListeners(new Status())
                 .enableIntents(GatewayIntent.GUILD_MEMBERS)
                 .enableIntents(GatewayIntent.GUILD_MESSAGE_REACTIONS)
                 .build();
