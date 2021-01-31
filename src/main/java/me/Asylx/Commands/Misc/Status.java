@@ -22,7 +22,7 @@ public class Status extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent e) {
         Message msg = e.getMessage();
         MessageChannel channel = e.getChannel();
-        if (msg.getContentRaw().equals(Prefix.P()+"Status")) {
+        if (msg.getContentRaw().equals(""+"Status")) {
             try {
                 JSONObject json = JsonFromURL.readJsonFromUrl("https://api.mcsrvstat.us/2/play.deniable.net");
 

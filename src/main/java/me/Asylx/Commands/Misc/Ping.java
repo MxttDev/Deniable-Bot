@@ -17,7 +17,7 @@ public class Ping extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent e) {
         Message msg = e.getMessage();
         MessageChannel channel = e.getChannel();
-        if (msg.getContentRaw().equals(Prefix.P()+"ping")) {
+        if (msg.getContentRaw().equals(""+""+"ping")) {
             channel.sendMessage("Pong!").queue();
         }
     }

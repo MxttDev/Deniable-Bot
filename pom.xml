@@ -14,17 +14,6 @@
             <artifactId>JDA</artifactId>
             <version>4.2.0_227</version>
         </dependency>
-        <dependency>
-            <groupId>io.github.cdimascio</groupId>
-            <artifactId>java-dotenv</artifactId>
-            <version>5.2.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.jwebmp</groupId>
-            <artifactId>json</artifactId>
-            <version>0.63.0.54</version>
-        </dependency>
-
     </dependencies>
 
     <repositories>
