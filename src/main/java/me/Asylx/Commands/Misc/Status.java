@@ -14,7 +14,6 @@ import java.util.Date;
 
 public class Status extends ListenerAdapter {
 
-    Boolean online;
     String mode;
     int onlineamount;
 

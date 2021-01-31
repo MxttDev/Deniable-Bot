@@ -17,13 +17,12 @@ public class Bot {
 
     private static JDA bot;
 
-    public static void main(String[] args) throws LoginException, IOException {
+    public static void main(String[] args) throws LoginException{
         bot = JDABuilder.createDefault(Config.TOKEN)
                 .setActivity(Activity.playing("play.deniable.net"))
                 .addEventListeners(new Ping())
                 .addEventListeners(new guildMemberJoin())
                 .addEventListeners(new guildMessageReaction())
-                .addEventListeners(new Status())
                 .enableIntents(GatewayIntent.GUILD_MEMBERS)
                 .enableIntents(GatewayIntent.GUILD_MESSAGE_REACTIONS)
                 .build();
